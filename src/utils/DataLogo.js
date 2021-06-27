@@ -21,8 +21,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/10/enhanced/buzzfeed-prod-fastlane-01/enhanced-buzz-1572-1515597361-29.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "false",
+      image2: "true",
     },
   },
   game3: {
@@ -34,8 +34,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/10/enhanced/buzzfeed-prod-fastlane-03/enhanced-buzz-16052-1515598414-0.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
   game4: {
@@ -47,8 +47,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/11/enhanced/buzzfeed-prod-fastlane-01/enhanced-buzz-4390-1515601492-3.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
   game5: {
@@ -60,8 +60,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/12/enhanced/buzzfeed-prod-fastlane-01/enhanced-buzz-6655-1515604471-0.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
   game6: {
@@ -73,8 +73,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-09/24/16/enhanced/buzzfeed-prod-web-06/enhanced-buzz-13371-1537820445-10.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "false",
+      image2: "true",
     },
   },
   game7: {
@@ -86,8 +86,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/17/enhanced/buzzfeed-prod-fastlane-03/enhanced-buzz-30754-1515622922-18.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "false",
+      image2: "true",
     },
   },
   game8: {
@@ -99,12 +99,12 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2018-01/10/17/enhanced/buzzfeed-prod-fastlane-03/enhanced-buzz-31183-1515623095-1.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
   game9: {
-    title: "Quel est le bon logo Google ?",
+    title: "Quel est le bon logo de Google ?",
     images: {
       image1:
         "https://img.buzzfeed.com/buzzfeed-static/static/2017-01/10/14/enhanced/buzzfeed-prod-web-03/enhanced-buzz-4585-1484075033-0.jpg?output-format=jpg&output-quality=auto",
@@ -112,8 +112,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2017-01/10/14/enhanced/buzzfeed-prod-web-03/enhanced-buzz-4469-1484075053-0.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
   game10: {
@@ -125,8 +125,8 @@ const DataLogo = {
         "https://img.buzzfeed.com/buzzfeed-static/static/2017-01/10/13/enhanced/buzzfeed-prod-web-04/enhanced-buzz-2175-1484072590-0.jpg?output-format=jpg&output-quality=auto",
     },
     response: {
-      image1: false,
-      image2: true,
+      image1: "true",
+      image2: "false",
     },
   },
 };
