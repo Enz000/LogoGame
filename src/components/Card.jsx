@@ -8,6 +8,7 @@ const Card = () => {
   // UseState part
   let [changeGame, setChangeGame] = useState(1);
   let [goodChoice, setGoodChoice] = useState("");
+  let [cliked, setClicked] = useState(false);
   let id1 = DataLogo[`game${changeGame}`].response.image1;
   let id2 = DataLogo[`game${changeGame}`].response.image2;
   // React Style part
@@ -15,8 +16,10 @@ const Card = () => {
     pointerEvents: goodChoice === "" ? "none" : null,
     opacity: goodChoice === "" ? "0.5" : null,
   };
+
   // Event Part
   const handleChooseTheGoodLogo = (e) => {
+    setClicked(true);
     if (e.target.dataset.id === "true") {
       setGoodChoice("true");
     } else {
@@ -27,11 +30,13 @@ const Card = () => {
   const handleNext = () => {
     setChangeGame(changeGame + 1);
     setGoodChoice("");
+    setClicked(false);
   };
 
   const handleRestart = () => {
     setChangeGame(1);
     setGoodChoice("");
+    setClicked(false);
   };
 
   // JSX part
@@ -57,6 +62,7 @@ const Card = () => {
                   : goodChoice === "false" && id2 === "false"
                   ? "3px solid green"
                   : "",
+              opacity: cliked === true && id1 === "false" ? "0.2" : "",
             }}
           />
         </Button>
@@ -80,6 +86,7 @@ const Card = () => {
                   : goodChoice === "false" && id1 === "false"
                   ? "3px solid green"
                   : "",
+              opacity: cliked === true && id2 === "false" ? "0.2" : "",
             }}
           />
         </Button>
@@ -159,7 +166,7 @@ const ImageLogo = styled.img`
   border-bottom-right-radius: 120px 24px;
   transform: rotate(-1deg);
   box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
-  transition: all 0.13s ease-in;
+  transition: all 0.13s ease-in-out;
   :hover {
     transform: translateY(-10px) rotate(1deg);
     box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);

@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Logo Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+One of my first project in React
+
+This is available on https://logogame.netlify.app/ try it now 🙂 !
+
+## Tech Stack
+
+**Client:** React, Styled-components
+
+## Feedback
+
+If you have any feedback, please reach out to us at https://www.linkedin.com/in/enzo-santamaria/
+
+## Authors
+
+- [@Enz000](https://www.github.com/Enz000)
 
 ## Available Scripts
 
